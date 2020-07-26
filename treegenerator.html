@@ -1,7 +1,7 @@
 <html>
 <head>
 </head>
-<body>
+<body style="background-color:#faf4f6;">
    <div><textarea id="txt"> </textarea>
     <br><button onclick="generate(event)">Generate Tree</button></div> 
 <canvas height="1000" width="1000" id="canv">
@@ -50,16 +50,17 @@
         ctx.beginPath();
         ctx.arc(y,x,r,0, 2 * Math.PI);
         ctx.stroke();
-        ctx.fillStyle = "yellow";
+        ctx.strokeStyle="#000000"
+        ctx.fillStyle = "#ffbcbc";
         ctx.fill();
         ctx.fillStyle = "blue";
         ctx.font = "bold 18px Arial";
         ctx.fillText(v, y-6, x-2);
-        ctx.fillStyle = "yellow";
+        ctx.fillStyle = "#ffbcbc";
     };
     //Draw a Line
     var drawLine=(x1,y1,x2,y2,r=16)=>{
-        ctx.strokeStyle = '#ff0000';
+        ctx.strokeStyle = '#e79c2a';
         ctx.moveTo(x1,y1);
         ctx.lineTo(x2,y2);
         ctx.stroke();

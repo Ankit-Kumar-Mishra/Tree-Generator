@@ -17,6 +17,6 @@ NOTE:
 2- Tree nodes must be numbered from 1 to N 
 
 
-![Sample screenshot 1](https://github.com/Ankit-Kumar-Mishra/Tree-Generator/blob/master/Screenshot%20from%202020-07-26%2001-57-13.png)
+![Sample screenshot 1](https://github.com/Ankit-Kumar-Mishra/Tree-Generator/blob/master/Screenshot%20from%202020-07-26%2015-36-08.png)
 
-![Sample screenshot 2](https://github.com/Ankit-Kumar-Mishra/Tree-Generator/blob/master/Screenshot%20from%202020-07-26%2001-57-43.png)
+![Sample screenshot 2](https://github.com/Ankit-Kumar-Mishra/Tree-Generator/blob/master/Screenshot%20from%202020-07-26%2015-36-37.png)
